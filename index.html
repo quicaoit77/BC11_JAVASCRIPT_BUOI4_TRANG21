@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Bài Tập JAVASCRIPT Buổi 4 - Trang 21</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center text-success my-5">BÀI TẬP JAVASCRIPT BUỔI 4 - TRANG 21</h1>
+            <div class="row">
+                <div class="col-6">
+                    <p>Chào mừng quý khách đến với cửa hàng thanh toán tự động của chúng tôi. Hãy nhập một số thông tin cần thiết bên dưới để nhận hoá đơn của bạn.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="tenMatHang">Tên mặt hàng:</label>
+                            <input type="text" class="form-control"
+                                id="tenMatHang"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="soLuong">Số lượng:</label>
+                            <input type="number" min="1" class="form-control"
+                                id="soLuong">
+                        </div>
+                        <div class="form-group">
+                            <label for="donGia">Đơn giá:</label>
+                            <input type="number" min="1" class="form-control"
+                                id="donGia">
+                        </div>
+                        
+                        <button id="tinhTienBtn" type="submit" class="btn btn-primary">Tính tiền</button>
+                    </form>
+                    <small class="text-muted"> <i>* Số lượng từ 50 đến 100 sẽ được giảm 8%</i> </small> <br />
+                    <small class="text-muted"> <i>* Số lượng từ 101 trở đi sẽ được giảm 12%</i> </small>
+                </div>
+                <div id="outPut" class="col-6 text-center">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+        <script src="./baiTapTrang21/js/main.js"></script>
+    </body>
+</html>
